@@ -6,13 +6,14 @@ import { ContactButtonsComponent } from './contact-buttons/contact-buttons.compo
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { TecnologiasComponent } from "./tecnologias/tecnologias.component";
 import { CinesKinoComponent } from './cines-kino/cines-kino.component';
+import { ExperienciaComponent } from "./experiencia/experiencia.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [TarjetaPresentacionComponent, NavbarComponent, ContactButtonsComponent, SobreMiComponent, 
-    TecnologiasComponent, CinesKinoComponent],
+  imports: [TarjetaPresentacionComponent, NavbarComponent, ContactButtonsComponent, SobreMiComponent,
+    TecnologiasComponent, CinesKinoComponent, ExperienciaComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
